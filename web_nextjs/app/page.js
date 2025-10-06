@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 import Particles from "@/components/Particles";
@@ -11,21 +12,8 @@ import Section2 from "@/components/Section2";
 export default function Home() {
   return (
     <div className="w-full relative">
-      {/* <SplashCursor /> */}
-      <div className="fixed inset-0 -z-10">
-        <Particles
-          particleColors={["#ffffff", "#ffffff"]}
-          particleCount={600}
-          particleSpread={10}
-          speed={0.3}
-          particleBaseSize={100}
-          moveParticlesOnHover={true}
-          alphaParticles={false}
-          disableRotation={false}
-        />
-      </div>
+      
 
-      <Topnavbar />
       <Section1 />
       <Section2 />
       <Section3 />

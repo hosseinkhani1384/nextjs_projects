@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import TextType from "./TextType";
+import Link from "next/link";
 
 export default function Section1() {
   return (
@@ -29,10 +30,8 @@ export default function Section1() {
           className="text-lg md:text-2xl text-center md:text-start"
         />
         <div className="flex flex-col md:flex-row justify-start items-center gap-3 w-full">
-          <button className="btn btn-neutral w-full md:w-auto">
-            Download for Free
-          </button>
-          <button className="btn w-full md:w-auto">Github Repo</button>
+          <Link href="/" className="cursor-target btn btn-neutral w-full md:w-auto">Donload for free</Link>
+          <Link href="/" className="cursor-target btn btn-ghost w-full md:w-auto">Lets make it</Link>
         </div>
       </div>
 

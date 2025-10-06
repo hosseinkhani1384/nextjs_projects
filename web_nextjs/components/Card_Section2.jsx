@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Card_Section2({ srcimg ,header,description}) {
   return (
-    <div className="p-10 mb-10 flex gap-2 ">
+    <div className="p-10 mb-10 flex gap-2 cursor-target">
       <div>
         <img src={srcimg} alt="" className="w-36" />
       </div>

@@ -19,7 +19,7 @@ export default function Section3() {
             <img
               src={data.srcimg}
               alt=""
-              className="hover:scale-125 active:scale-125 transition-all"
+              className="hover:scale-125 active:scale-125 transition-all cursor-target"
               key={index}
             />
           );

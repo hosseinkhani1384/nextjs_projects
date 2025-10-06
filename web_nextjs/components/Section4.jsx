@@ -19,7 +19,7 @@ export default function Section4() {
           Pull content from anywhere and serve it fast with Astro's next-gen
           island architecture
         </p>
-        <button className="btn">Get Started</button>
+        <button className="btn cursor-target">Get Started</button>
       </div>
     </motion.section>
   );

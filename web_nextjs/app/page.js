@@ -11,7 +11,7 @@ import Section2 from "@/components/Section2";
 export default function Home() {
   return (
     <div className="w-full relative">
-      {/* <SplashCursor /> */}
+      
       <div className="fixed inset-0 -z-10">
         <Particles
           particleColors={["#ffffff", "#ffffff"]}
@@ -25,7 +25,7 @@ export default function Home() {
         />
       </div>
 
-      <Topnavbar />
+     
       <Section1 />
       <Section2 />
       <Section3 />

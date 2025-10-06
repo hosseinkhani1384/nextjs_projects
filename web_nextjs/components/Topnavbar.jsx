@@ -94,18 +94,23 @@ export default function Topnavbar() {
               </li>
               <li>
                 <a>Another Action</a>
+               
               </li>
               <li>
                 <a>Dropdown Submenu</a>
+               
               </li>
               <li>
                 <a>404 page</a>
+            
               </li>
             </ul>
           </div>
           <span className="text-xl cursor-pointer">About</span>
           <span className="text-xl cursor-pointer">Blog</span>
           <span className="text-xl cursor-pointer">Contact</span>
+         
+
         </div>
 
         <div className="navbar-end lg:flex gap-3">
